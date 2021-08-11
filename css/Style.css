@@ -1,0 +1,21 @@
+﻿ input
+
+{
+     width:50px;
+    margin: 5px 0;
+}
+
+fieldset {
+    width: 300px;
+    height:100px;
+    padding: 10px 20px;
+    background-color: lavender;
+    margin-bottom: 10px;
+}
+
+legend {
+    background-color: slategray;
+    padding: 0 10px;
+    color: whitesmoke;
+}
+

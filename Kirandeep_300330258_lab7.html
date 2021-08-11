@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="css/style.css" rel="stylesheet">
+    <meta name="author" content="RG">
+    <meta charset="utf-8">
+    <script src="script/calculator.js"></script>
+    <title>calculator</title>
+</head>
+<body>
+    <header>
+        <h3>Lab 7:JavaScript Arithmetic Operator</h3>
+    </header>
+    <form name="AMachine" action='' method='GET'>
+        <fieldset>
+            <legend>My Calculator</legend>
+            <textarea name="output" id="place" rows="3" cols="20"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Input</legend>
+            <label for="input" name="operands">Operands:</label>
+            <input type="text" id="inp1" name="fname">
+            <input type="text" id="inp2" name="fname"><br>
+            <label for="input"name="operator">Operator:</label>
+            <input type="button" name="plus" value="&plus;" onclick="addValue()">
+            <input type="button" name="multi" value="&times;" onclick="mValue()">
+            <input type="button" name="divide" value="&divide;" onclick="dValue()">
+            <input type="button" name="clear" value="Clear" onclick="cValue()">
+        </fieldset>
+
+
+    </form>
+</body>
+</html>
